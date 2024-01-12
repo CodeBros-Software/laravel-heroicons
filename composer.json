@@ -2,6 +2,7 @@
     "name": "codebros-nl/laravel-heroicons",
     "description": "A Laravel Package to include heroicons as blade components in any project",
     "minimum-stability": "dev",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "CodeBros\\LaravelHeroicons\\": "src/"
