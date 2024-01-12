@@ -16,7 +16,7 @@ This package assumes that you are using Tailwind CSS in your Laravel project, as
 
 Install the package via Composer:
 ```bash
-composer require codebros/laravel-heroicons
+composer require codebros-nl/laravel-heroicons
 ```
 Publish the assets (optional):
 ```bash
