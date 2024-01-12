@@ -1,0 +1,27 @@
+{
+    "name": "codebros/laravel-heroicons",
+    "description": "A Laravel Package to include heroicons as blade components in any project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CodeBros\\LaravelHeroicons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Norman Reinhard",
+            "email": "info@codebros.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeBros\\LaravelHeroicons\\Providers\\LaravelHeroiconsServiceProvider"
+            ]
+        }
+    }
+}
