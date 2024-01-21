@@ -32,6 +32,12 @@ Using Heroicons in your Laravel views is simple:
 ```
 Replace `outline.bolt` with the desired Heroicon style and name. Add your own class attributes for size and color customization.
 
+Or if you do like to specify it more specific you can use the code template below:
+```blade
+<x-herocions::icon icon-name="bolt" solid class="w-6 h-6 text-green-500" />
+```
+The `solid` property is optional and will trigger the solid icon set. Removing this property will fallback to our default icon set which is outline.
+
 ## Contribution
 
 Contributions are welcome! Please follow the standard Laravel contribution guidelines.
