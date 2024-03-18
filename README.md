@@ -6,6 +6,13 @@ Heroicons for Laravel is an elegant Laravel package that enables developers to e
 
 This package assumes that you are using Tailwind CSS in your Laravel project, as Heroicons are primarily designed to complement Tailwind's utility-first approach. Please ensure that Tailwind CSS is properly set up in your project environment.
 
+## Minimum requirements
+
+| Name    | Version |
+|---------|---------|
+| PHP     | 8.2     |
+| Laravel | 10.0    |
+
 ## Features
 
 * Easy Integration: Seamlessly integrates with Laravel projects.
