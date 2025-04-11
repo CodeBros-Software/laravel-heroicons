@@ -1,2 +1,5 @@
+/.idea
+.idea/php.xml
 /vendor
+.DS_STORE
 composer.lock
