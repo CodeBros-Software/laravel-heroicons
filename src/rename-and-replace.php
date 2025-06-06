@@ -20,6 +20,10 @@ foreach ($files as $file) {
         // Replace <svg with <svg {{ $attributes->merge() }}
         $updatedContent = str_replace('<svg', '<svg {{ $attributes->merge([\'class\' => \'size-6\']) }}', $content);
 
+        // Replace fill attributes that are not currentColor with currentColor
+        $pattern = '/fill="(?!currentColor)[^"]*"/';
+        $updatedContent = preg_replace($pattern, 'fill="currentColor"', $updatedContent);
+
         // Write the updated content to the new file
         if (file_put_contents($newPath, $updatedContent) !== false) {
             // Remove the old file
